@@ -14,10 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "react-native": ["react-native-web"],
-      "react-native-web": ["node_modules/react-native-web"]
+      "react-native": ["./node_modules/react-native-web"],
+      "react-native-web": ["./node_modules/react-native-web"]
     },
     "plugins": [
       {
